@@ -13,15 +13,33 @@
 
 <!-- Nav Item - Dashboard -->
 <li class="nav-item active">
-    <a class="nav-link" href="{{route('dashboard')}">
+    <a class="nav-link" href="{{route('dashboard')}}">
         <i class="fas fa-fw fa-tachometer-alt"></i>
         <span>Dashboard</span></a>
 </li>
 
 <li class="nav-item active">
-    <a class="nav-link" href="{{route('departemen.index')}">
+    <a class="nav-link" href="{{route('siswa.index')}}">
         <i class="fas fa-fw fa-table"></i>
-        <span>Data Departemen</span></a>
+        <span>Data Siswa</span></a>
+</li>
+
+<li class="nav-item active">
+    <a class="nav-link" href="{{route('konselor.index')}}">
+        <i class="fas fa-fw fa-table"></i>
+        <span>Data Konselor</span></a>
+</li>
+
+<li class="nav-item active">
+    <a class="nav-link" href="{{route('konseling.index')}}">
+        <i class="fas fa-fw fa-table"></i>
+        <span>Pesan Konseling</span></a>
+</li>
+
+<li class="nav-item active">
+    <a class="nav-link" href="{{route('feedback.index')}}">
+        <i class="fas fa-fw fa-table"></i>
+        <span>Feedback</span></a>
 </li>
 
 <!-- Divider -->

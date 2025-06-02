@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\DepartemenController;
+use App\Http\Controllers\SiswaController;
+use App\Http\Controllers\KonselorController;
+use App\Http\Controllers\KonselingController;
+use App\Http\Controllers\FeedbackController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,4 +21,8 @@ Route::get('/', function () {
     return view('dashboard');
 })->name('dashboard');
 
-Route::Resource('departemen',DepartemenController::class);
+Route::resource('siswa',SiswaController::class);
+Route::resource('konselor',KonselorController::class);
+Route::resource('konseling',KonselingController::class);
+Route::resource('feedback',FeedbackController::class);
+
